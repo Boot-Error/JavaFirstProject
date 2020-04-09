@@ -4,7 +4,7 @@
 
  - Create java project JavaFirstProject using maven cli modify the command accordingly create a base packate com.sapient.week1
 	
-	mvn archetype:generate -DgroupId=com.sapient -DartifactId=java-project   -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+		mvn archetype:generate -DgroupId=com.sapient -DartifactId=java-project   -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 - Add a java class CheckEven and the method  public Boolean check(int n); and implement the method.
 - Create 3-4 test case to test the above method.
