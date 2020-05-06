@@ -35,4 +35,23 @@ public class ShapesTest
     {
         assertTrue( true );
     }
+
+	public void testCase1() {
+		
+		Shapes shape = new Shapes();
+		shape.calculateShapeArea(3, 12);
+	}
+
+	public void testCase2() {
+
+		Shapes shape = new Shapes();
+		shape.calculateShapeArea(4, 15);
+	}
+
+	public void testCase3() {
+	
+		Shapes shape = new Shapes();
+		shape.calculateShapeArea(5, 15);
+
+	}
 }
