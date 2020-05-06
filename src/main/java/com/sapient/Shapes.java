@@ -8,19 +8,24 @@ package com.sapient;
 
 class Circle {
 	public static void calculateArea(int radius) {
-		System.out.println("Circle area");
+
+		double area = 3.14 * (double)(radius * radius);
+		System.out.println("Circle area is " + area);
 	}
 }
 
 class Triangle {
 	public static void calculateArea(int side) {
-		System.out.println("Triangle area");
+		double area = 0.433 * (double)(side * side);
+		System.out.println("Triangle area is " + area);
 	}
 }
 
 class Square {
 	public static void calculateArea(int side) {
-		System.out.println("Square area");
+
+		double area = (double)(side * side);
+		System.out.println("Square area is " + area);
 	}
 }
 
